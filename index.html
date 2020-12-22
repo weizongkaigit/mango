@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./static/images/logoS.png">
+    <link rel="stylesheet" href="./static/css/loading.css">
+    <!-- <script src="https://cdn.bootcss.com/vue/2.5.2/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/vue-router/3.0.1/vue-router.min.js"></script>
+    <script src="https://cdn.bootcss.com/vuex/3.0.1/vuex.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/ant-design-vue@1.0.3/dist/antd.min.css">
+    <script src="https://unpkg.com/ant-design-vue@1.0.3/dist/antd.min.js"></script> -->
+    <title>dobby</title>
+  </head>
+  <body style="margin:0;">
+    <div class="loadster-box">
+      <div class="loadster">
+        <div class="loadster__body">
+          <div class="body__gum"></div>
+        </div>
+        <div class="loadster__mask"></div>
+        <div class="loadster__head">
+          <div class="head__face"></div>
+          <div class="head__ear"></div>
+          <div class="head__eye"></div>
+          <div class="head__horn">
+            <div class="horn__circle"></div>
+          </div>
+          <div class="head__smile"></div>
+          <div class="head__hand"></div>
+        </div>
+        <div class="loadster__bottom">
+          <div class="bottom__foot"></div>
+        </div>
+        <div class="loadding-title">Dobby正在疯狂刨坑中。。。。。。</div>
+      </div>
+    </div>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+<script>
+  window.onload=function(){
+    setTimeout(()=>{
+      document.getElementById('app').style.display = 'block';
+      document.getElementsByClassName('loadster-box')[0].style.display = 'none';
+    }, 0);
+  }
+</script>

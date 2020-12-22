@@ -1,0 +1,2 @@
+webpackJsonp([2],{CWAC:function(e,t){},XBGT:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var a={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{staticClass:"page"})},staticRenderFns:[]};var r=n("VU/8")({name:"Serve"},a,!1,function(e){n("CWAC")},"data-v-55f00956",null);t.default=r.exports}});
+//# sourceMappingURL=2.2f079b42c44b0c76c48c.js.map
